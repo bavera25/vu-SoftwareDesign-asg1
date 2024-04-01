@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.shape.*?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" text="DrumSet" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DrumLogic">
+    <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" visible="false">
+            <children>
+                <Circle fill="#eeeddc" layoutX="299.0" layoutY="171.0" onMouseClicked="#baseSound" radius="91.0" stroke="#6b6565" strokeType="INSIDE" strokeWidth="4.0" />
+                <Circle fill="#eeeddc" layoutX="420.0" layoutY="238.0" onMouseClicked="#flrTomSound" radius="59.0" stroke="#6b6565" strokeType="INSIDE" strokeWidth="4.0" />
+                <Circle fill="#eeeddc" layoutX="368.0" layoutY="144.0" onMouseClicked="#medTomSound" radius="47.0" stroke="#6b6565" strokeType="INSIDE" strokeWidth="4.0" />
+                <Circle fill="#d7bf36" layoutX="479.0" layoutY="144.0" onMouseClicked="#rideSound" radius="64.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fill="#eeeddc" layoutX="199.0" layoutY="246.0" onMouseClicked="#snareSound" radius="53.0" stroke="#6b6565" strokeType="INSIDE" strokeWidth="4.0" />
+                <Circle fill="#eeeddc" layoutX="242.0" layoutY="154.0" onMouseClicked="#hiTomSound" radius="43.0" stroke="#6b6565" strokeType="INSIDE" strokeWidth="4.0" />
+                <Circle fill="#d7bf36" layoutX="105.0" layoutY="210.0" onMouseClicked="#hatSound" radius="56.0" stroke="BLACK" strokeType="INSIDE" />
+                <Circle fill="#d7bf36" layoutX="161.0" layoutY="120.0" onMouseClicked="#crashSound" radius="51.0" stroke="BLACK" strokeType="INSIDE" />
+                <TextField alignment="CENTER" editable="false" layoutX="172.0" layoutY="232.0" opacity="0.9" prefHeight="27.0" prefWidth="54.0" text="Snare" />
+                <TextField alignment="CENTER" editable="false" layoutX="134.0" layoutY="107.0" opacity="0.9" prefHeight="27.0" prefWidth="54.0" text="Crash" />
+                <TextField alignment="CENTER" editable="false" layoutX="204.0" layoutY="122.0" opacity="0.9" prefHeight="27.0" prefWidth="76.0" text="High-Tom" />
+                <TextField alignment="CENTER" editable="false" layoutX="322.0" layoutY="107.0" opacity="0.9" prefHeight="28.0" prefWidth="92.0" text="Medium-Tom" />
+                <TextField alignment="CENTER" editable="false" layoutX="452.0" layoutY="131.0" opacity="0.9" prefHeight="27.0" prefWidth="54.0" text="Ride" />
+                <TextField alignment="CENTER" editable="false" layoutX="381.0" layoutY="219.0" opacity="0.9" prefHeight="27.0" prefWidth="78.0" text="Floor-Tom" />
+                <TextField alignment="CENTER" editable="false" layoutX="78.0" layoutY="197.0" opacity="0.9" prefHeight="27.0" prefWidth="54.0" text="Hi-Hats" />
+                <TextField alignment="CENTER" editable="false" layoutX="272.0" layoutY="189.0" onMouseClicked="#baseSound" opacity="0.9" prefHeight="27.0" prefWidth="54.0" text="Base" />
+            <MenuBar prefHeight="29.0" prefWidth="600.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            </children></AnchorPane>
+    </content>
+</TitledPane>

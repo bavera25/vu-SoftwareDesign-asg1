@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="750.0" text="Beat Sequencer" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DrumMachineLogic">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="618.0" prefWidth="698.0">
+         <children>
+            <ToggleButton layoutX="256.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_0_3" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="256.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_1_3" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="256.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_2_3" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="256.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_3_3" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="256.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_4_3" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="256.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_5_3" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="256.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_6_3" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="256.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_7_3" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="256.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_8_3" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="256.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_9_3" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="256.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_10_3" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="256.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_11_3" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="286.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_0_4" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="286.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_1_4" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="286.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_2_4" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="286.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_3_4" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="286.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_4_4" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="286.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_5_4" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="286.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_6_4" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="286.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_7_4" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="286.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_8_4" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="286.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_9_4" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="286.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_10_4" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="286.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_11_4" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="328.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_0_5" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="328.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_1_5" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="328.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_2_5" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="328.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_3_5" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="328.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_4_5" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="328.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_5_5" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="328.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_6_5" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="328.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_7_5" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="328.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_8_5" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="328.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_9_5" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="328.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_10_5" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="328.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_11_5" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="358.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_0_6" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="358.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_1_6" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="358.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_2_6" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="358.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_3_6" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="358.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_4_6" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="358.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_5_6" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="358.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_6_6" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="358.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_7_6" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="358.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_8_6" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="358.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_9_6" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="358.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_10_6" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="358.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_11_6" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="388.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_0_7" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="388.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_1_7" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="388.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_2_7" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="388.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_3_7" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="388.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_4_7" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="388.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_5_7" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="388.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_6_7" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="388.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_7_7" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="388.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_8_7" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="388.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_9_7" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="388.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_10_7" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="388.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_11_7" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="418.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_0_8" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="418.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_1_8" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="418.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_2_8" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="418.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_3_8" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="418.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_4_8" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="418.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_5_8" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="418.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_6_8" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="418.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_7_8" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="418.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_8_8" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="418.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_9_8" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="418.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_10_8" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="418.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_11_8" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="460.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_0_9" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="460.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_1_9" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="460.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_2_9" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="460.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_3_9" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="460.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_4_9" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="460.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_5_9" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="460.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_6_9" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="460.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_7_9" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="460.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_8_9" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="460.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_9_9" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="460.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_10_9" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="460.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_11_9" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="490.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_0_10" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="490.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_1_10" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="490.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_2_10" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="490.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_3_10" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="490.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_4_10" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="490.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_5_10" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="490.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_6_10" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="490.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_7_10" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="490.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_8_10" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="490.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_9_10" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="490.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_10_10" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="490.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_11_10" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="520.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_0_11" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="520.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_1_11" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="520.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_2_11" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="520.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_3_11" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="520.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_4_11" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="520.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_5_11" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="520.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_6_11" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="520.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_7_11" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="520.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_8_11" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="520.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_9_11" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="520.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_10_11" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="520.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_11_11" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="550.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_0_12" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="550.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_1_12" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="550.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_2_12" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="550.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_3_12" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="550.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_4_12" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="550.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_5_12" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="550.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_6_12" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="550.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_7_12" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="550.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_8_12" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="550.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_9_12" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="550.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_10_12" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="550.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_11_12" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="591.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_0_13" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="591.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_1_13" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="591.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_2_13" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="591.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_3_13" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="591.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_4_13" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="591.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_5_13" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="591.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_6_13" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="591.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_7_13" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="591.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_8_13" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="591.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_9_13" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="591.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_10_13" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="591.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_11_13" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="621.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_0_14" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="621.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_1_14" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="621.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_2_14" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="621.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_3_14" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="621.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_4_14" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="621.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_5_14" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="621.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_6_14" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="621.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_7_14" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="621.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_8_14" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="621.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_9_14" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="621.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_10_14" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="621.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_11_14" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="651.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_0_15" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="651.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_1_15" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="651.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_2_15" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="651.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_3_15" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="651.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_4_15" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="651.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_5_15" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="651.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_6_15" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="651.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_7_15" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="651.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_8_15" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="651.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_9_15" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="651.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_10_15" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="651.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_11_15" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="681.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_0_16" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="681.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_1_16" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="681.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_2_16" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="681.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_3_16" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="681.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_4_16" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="681.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_5_16" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="681.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_6_16" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="681.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_7_16" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="681.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_8_16" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="681.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_9_16" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="681.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_10_16" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="681.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_11_16" prefHeight="30.0" prefWidth="30.0" />
+            <ComboBox layoutX="25.0" layoutY="45.0" prefHeight="30.0" prefWidth="150.0" promptText="Choose Instrument" />
+            <ComboBox layoutX="25.0" layoutY="75.0" prefHeight="30.0" prefWidth="150.0" promptText="Choose Instrument" />
+            <ComboBox layoutX="25.0" layoutY="105.0" prefHeight="30.0" prefWidth="150.0" promptText="Choose Instrument" />
+            <ComboBox layoutX="25.0" layoutY="135.0" prefHeight="30.0" prefWidth="150.0" promptText="Choose Instrument" />
+            <ComboBox layoutX="25.0" layoutY="165.0" prefHeight="30.0" prefWidth="150.0" promptText="Choose Instrument" />
+            <ComboBox layoutX="25.0" layoutY="195.0" prefHeight="30.0" prefWidth="150.0" promptText="Choose Instrument" />
+            <ComboBox layoutX="25.0" layoutY="225.0" prefHeight="30.0" prefWidth="150.0" promptText="Choose Instrument" />
+            <ComboBox layoutX="25.0" layoutY="255.0" prefHeight="30.0" prefWidth="150.0" promptText="Choose Instrument" />
+            <ComboBox layoutX="25.0" layoutY="285.0" prefHeight="30.0" prefWidth="150.0" promptText="Choose Instrument" />
+            <ComboBox layoutX="25.0" layoutY="315.0" prefHeight="30.0" prefWidth="150.0" promptText="Choose Instrument" />
+            <ComboBox layoutX="25.0" layoutY="345.0" prefHeight="30.0" prefWidth="150.0" promptText="Choose Instrument" />
+            <ComboBox layoutX="25.0" layoutY="375.0" prefHeight="30.0" prefWidth="150.0" promptText="Choose Instrument" />
+            <ToggleButton layoutX="196.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_0_1" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="196.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_1_1" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="196.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_2_1" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="196.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_3_1" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="196.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_4_1" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="196.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_5_1" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="196.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_6_1" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="196.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_7_1" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="196.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_8_1" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="196.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_9_1" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="196.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_10_1" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="196.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_11_1" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="226.0" layoutY="45.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_0_2" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="226.0" layoutY="75.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_1_2" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="226.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_2_2" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="226.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_3_2" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="226.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_4_2" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="226.0" layoutY="195.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_5_2" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="226.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_6_2" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="226.0" layoutY="255.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_7_2" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="226.0" layoutY="285.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_8_2" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="226.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_9_2" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="226.0" layoutY="345.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_10_2" prefHeight="30.0" prefWidth="30.0" />
+            <ToggleButton layoutX="226.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#noteOnOff_11_2" prefHeight="30.0" prefWidth="30.0" />
+            <Label layoutX="208.0" layoutY="14.0" text="1" />
+            <Label layoutX="238.0" layoutY="14.0" text="2" />
+            <Label layoutX="268.0" layoutY="14.0" text="3" />
+            <Label layoutX="298.0" layoutY="14.0" text="4" />
+            <Label layoutX="340.0" layoutY="14.0" text="1" />
+            <Label layoutX="370.0" layoutY="14.0" text="2" />
+            <Label layoutX="400.0" layoutY="14.0" text="3" />
+            <Label layoutX="430.0" layoutY="14.0" text="4" />
+            <Label layoutX="472.0" layoutY="14.0" text="1" />
+            <Label layoutX="502.0" layoutY="14.0" text="2" />
+            <Label layoutX="532.0" layoutY="14.0" text="3" />
+            <Label layoutX="562.0" layoutY="14.0" text="4" />
+            <Label layoutX="603.0" layoutY="14.0" text="1" />
+            <Label layoutX="633.0" layoutY="14.0" text="2" />
+            <Label layoutX="663.0" layoutY="14.0" text="3" />
+            <Label layoutX="693.0" layoutY="14.0" text="4" />
+            <Slider layoutX="25.0" layoutY="565.0" prefHeight="14.0" prefWidth="120.0" />
+            <Label layoutX="43.0" layoutY="548.0" text="Tempo (BPM)" />
+            <Slider layoutX="166.0" layoutY="565.0" prefHeight="14.0" prefWidth="120.0" />
+            <Label layoutX="190.0" layoutY="548.0" text="Note Velocity" />
+            <Button layoutX="570.0" layoutY="538.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="80.0" text="Import..." />
+            <Button layoutX="570.0" layoutY="567.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="80.0" text="Export..." />
+            <TextField layoutX="328.0" layoutY="538.0" prefHeight="25.0" prefWidth="240.0" />
+            <TextField layoutX="328.0" layoutY="567.0" prefHeight="25.0" prefWidth="240.0" />
+            <Button layoutX="25.0" layoutY="446.0" mnemonicParsing="false" onMouseClicked="#play" text="Play" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>
